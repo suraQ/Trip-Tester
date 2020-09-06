@@ -1,7 +1,5 @@
 ﻿    /* /_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
     charset= shift_jis
-    
-
     ----------------------------------------------------------------
     
     Usage;
@@ -37,9 +35,6 @@
     };
     cipherText = des.encrypt( myHash );
 
-    
-    
-    * 拙作の Base64 ライブラリを使う ( 別途必要 )
 
     - 暗号文を符号化
     cipherText   = des.encrypt( 略.... );
@@ -48,9 +43,6 @@
     - 符号化された暗号文を復号化
     cipherText = base64.decode( cipherText64 );
     plainText  = des.encrypt( 略.... );
-
-
-    * 拙作の URL エンコード/デコード関数を使う ( 同スクリプトに有り )
     
     - 暗号文を符号化
     cipherText   = des.encrypt( 略.... );
@@ -634,17 +626,6 @@ des = new function()
 
     /* /_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
     charset = shift_jis
-
-    +++ UTF8/16 ライブラリ +++
-
-
-
-    * [RFC 2279] UTF-8, a transformation format of ISO 10646
-    ftp://ftp.isi.edu/in-notes/rfc2279.txt
-    
-    * [RFC 1738] Uniform Resource Locators (URL)
-    ftp://ftp.isi.edu/in-notes/rfc1738.txt
-
     /_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
     
     Usage:
